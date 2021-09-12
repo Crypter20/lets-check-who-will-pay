@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+h1 {
+  font-family: "Pacifico", cursive;
+  color: #db3eb1;
+  text-decoration: underline;
+  text-decoration-color: #41b6e6;
+  font-style: italic;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Wrapper {
+  height: 100vh;
+  display: grid;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.center--wrapper {
+  align-self: center;
+  justify-self: center;
+}
+button.btn1 {
+  background-color: #41b6e6 !important;
+  border-color: #db3eb1 !important;
+}
+.badge {
+  cursor: pointer;
+}
+.badge-danger {
+  background-color: #41b6e6 !important;
+}
+.action-button{
+    position:fixed;
+    bottom:20px;
+    right:20px;background:#943edb;
+    color:white ;
+    padding:15px 40px;
+    font-size:16px;
+    font-family: 'Pacifico', cursive;
+    border: 3px solid #42b6e6;
+    /* border-radius: 10px; */
+    cursor:pointer;
+}
+.Toastify{
+    position:fixed;
+}
+.action-button.btn2{
+    right:230px;
+    font-size:20px;
+}
+.result-wrapper {
+    text-align: center;
+    margin-top: 30px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.result-wrapper div {
+    font-size: 40px;
+    color: #585858;
   }
-  to {
-    transform: rotate(360deg);
+.result-wrapper h3 {
+    color: #41b6e6;
   }
-}
